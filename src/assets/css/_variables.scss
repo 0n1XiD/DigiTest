@@ -1,0 +1,46 @@
+@import './vendor/colors.scss';
+@import './vendor/fonts.scss';
+
+:root {
+    // Text
+    --text-color: #{$black};
+    --text-color-link: #{$white};
+    --text-color-primary: #{$blue-two};
+    --text-color-alternative: #{$gray};
+    --text-color-placeholder: #{$light-gray};
+    --text-inactive-color: #{$gray-two};
+    --link: #{$light-blue};
+    --success: #{$light-green};
+
+    // Fonts
+    --font-weight-extrabold: 800;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+    --font-weight-medium: 500;
+    --font-weight-regular: 400;
+
+    --font-size: 14px;
+    --font-size-xs: 12px;
+    --font-size-md: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 20px;
+    --font-size-extra-xl: 24px;
+    --font-size-xxl: 36px;
+    --font-size-extra-xxl: 40px;
+
+    --font-family: "PT Sans", sans-serif;
+    --font-family-second: "Inter", sans-serif;
+
+    // Background
+    --bg-color: #{$white};
+    --bg-color-gradient: #{$dark-to-light-purple};
+    --bg-color-gradient-reverse: #{$light-to-dark-purple};
+    --bg-color-light: #{$dark-blue-three};
+    --bg-color-dark: #{$dark-purple};
+    --box-color: #{$white};
+
+
+    // Additional elemets
+    --additional-bg: #{$dark-gray};
+    --additional-box: #{$dark-light-blue};
+}
